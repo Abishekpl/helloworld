@@ -135,8 +135,8 @@ from _datetime import datetime,timedelta  # to get current date and time , we ne
 # Lists ---  we use list when ever we want represent a list of objects ,ie numbers ,names etc
 #
 
-# names =["Abhishek","Akshay","Lokanatha","Shobha"]
-# names[2] ="logu" #renaming / correcting
+# names =["John","Smith","Jacob","Marry"]
+# names[2] ="Jaco" #renaming / correcting
 # print(names[1])    #print only names to see full list
 # print(names)
 # print (names[0:2])
@@ -203,15 +203,15 @@ from _datetime import datetime,timedelta  # to get current date and time , we ne
 
 
 
-# first_name = "abhishek"
-# last_name = "lokanatha "
+# first_name = "John"
+# last_name = "Jacob "
 # print(first_name.capitalize()+ ' ' + last_name.capitalize()) #capitalize create a cpital first letter of the output
-# #     Abhishek Lokanatha this is the output with cpital letters first
+# #     John Jacob this is the output with capital letters first
 
 # Custom string formatting (string concatination)
 
-# first_name = "abhishek"
-# last_name = "lokanatha"
+# first_name = "John"
+# last_name = "Jacob"
 
 # print("Hello , " + first_name + " " + last_name)
 # print("Hello , {} {} " .format(first_name,last_name))  # use .format for ease to get custom format output
@@ -221,22 +221,22 @@ from _datetime import datetime,timedelta  # to get current date and time , we ne
 #                                                                 #Different menthods for same outputs
 # same output for above all print formats
 
-# Hello , abhishek lokanatha
-# Hello , abhishek lokanatha
-# Hello , abhishek lokanatha
-# Hello , abhishek lokanatha # output from .f format function
+# Hello , John Jacob
+# Hello , John Jacob
+# Hello , John Jacob
+# Hello , John Jacob # output from .f format function
 
 
 #inputs
 
-# first_name = "abhishek"
-# last_name = "lokanatha"
+# first_name = "John"
+# last_name = "Jacob"
 # output = f'hello,{first_name} {last_name}' #here f is mentioned hence that value is taken from stored variable
 # print(output)
 
 # outputs
 
-#hello,abhishek lokanatha                      #with (f) ie formating concatinaltion menthod
+#hello,John Jacob                      #with (f) ie formating concatinaltion menthod
 
 #hello,{first_name} {last_name}                       #without (f) ie formating concatinaltion menthod
 
