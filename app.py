@@ -318,11 +318,13 @@ from _datetime import datetime,timedelta  # to get current date and time , we ne
 #     print("you are not from canada")
 # }
 
-province = input("Enter Your Provinces ")
-if province in("Alberta" ,'Nunavut'):
-    print("hello")
+# province = input("Enter Your Provinces ")
+# if province in("Alberta" ,'Nunavut'):
+#     print("hello")
 
-    print("hello")
+
+
+
 
 
 
